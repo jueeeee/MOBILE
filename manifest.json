@@ -1,0 +1,23 @@
+{
+  "name": "안녕하세요! 삼성중공업입니다",
+  "short_name": "삼성중공업",
+  "description": "CHALLENGES TO THE FIRST WORLD",
+  "scope": ".",
+  "start_url": "./",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "images/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

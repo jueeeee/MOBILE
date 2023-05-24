@@ -1,0 +1,43 @@
+.visual{
+    width: 100%;
+    height: 220px;
+    background: url(../images/sub2_visual.jpg) center no-repeat;
+    background-size: cover;}
+
+.title_area{padding: 10px; margin: 20px; border-bottom: 1px solid #ccc; border-top:1px solid #ccc}
+.title_area span{color:#0c4da2; position: absolute; font-weight: 500;}
+.title_area p{text-align: center; font-weight: 500;}
+
+.swiper-slide img{width: 94%; padding:0 3%;}
+.swiper-container{width: 100%; height: 100%;}
+
+dl{padding: 20px 20px 15px;}
+dt{font-size: 1.3em; font-weight: 500;}
+dd{margin-top: 10px;}
+.more{float: right; margin-right: 7%;}
+.more span{font-size: .9em;}
+
+.con1{margin-top: 40px;}
+.con2{margin: 80px 0 50px;}
+
+/* popup */ 
+.modal_box{width: 100%; height: 100%; display: none; position: fixed; top: 0; left: 0; background: rgba(0,0,0,.7); z-index: 110;}
+.popup{position: fixed; top: 0; left: 0; 
+    width: 100%; height: 100%; background: #fff; z-index: 120; display:none; overflow: hidden;}
+.popup::before {content: '자세히보기'; position: fixed; left: 0; top: 0; width: 100%; height: 50px; line-height: 50px; font-weight: 500;
+        background: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.15); text-align: center; letter-spacing: -0.065rem;}
+.popup img{width:100%; margin-top: 50px;}
+.popup .back{border-radius: 50%;}
+.popup .title_box{padding: 20px;}
+.popup .title_box strong{display: block; color: #999; font-weight: 500; font-size: 1.5rem; margin-bottom: 5px;}
+.popup .title_box span{font-weight: 500;}
+.popup .title_box p{margin-top: 12px;}
+.popup p{font-weight: 400; font-size: 1.05rem; color: #666; text-align: justify; line-height: 1.7em;}
+.popup .text_box{padding: 20px; background: #f1f1f1;}
+.popup a{background: url(http://juj2569.cafe24.com/sub2/images/content1/close.jpg) no-repeat; background-size: 100% auto;
+    width: 17px; height: 20px; display: block; text-indent: -9999px; position: absolute; top: 17px; right: 20px;}
+
+.swiper-container{overflow:visible ;}
+.swiper-pagination{font-weight: 500;}
+.swiper-pagination-current{color:#0c4da2}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{bottom:-30px}

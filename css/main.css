@@ -1,0 +1,244 @@
+/* 공통 */
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8em;
+    font-weight: 700;}
+
+.text{
+    font-size: 1em;}
+
+.business, .tech, .esg, .faq, .inq{padding: 2.4rem 1.2rem 0;}
+
+
+/* visual */
+#wrap .gallery{
+    position: relative;
+    top: 0;
+    width:100%;
+    height: auto;}
+
+#wrap .gallery li{ display: none;}
+#wrap .gallery li:nth-child(1){display: block;}
+
+#wrap .gallery img{
+    width: 100%;
+    filter:brightness(.7) }
+
+#wrap .slogan{
+    position: absolute;
+    left: 8%;
+    color: #fff;}
+
+#wrap .slogan strong{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.1rem;
+    font-weight: 700}
+
+#wrap .slogan span{
+    display: block;
+    margin-top: 5%;
+    font-size: 1.1em;
+    line-height: 1.5;}
+
+#wrap .count{
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #fff;
+    display: flex;
+    position: absolute;
+    top: 20%;
+    right: 15%;}
+
+#wrap .mcount{
+    margin-left: 20%;}
+
+/* business */
+#content{position: relative;}
+
+#content .business p{text-align: center;}
+
+#content .business img{
+    width: 100%;
+    padding: 1.2rem 0;}
+
+#content .business .swiper-container{
+    width: 100%;
+    height :auto;
+    padding-bottom: 2.5rem;}    
+
+#content .business .more{
+    display: block;
+    position: absolute;
+    top: 2.8em;
+    right: 1.2em;}
+
+#content .business .more i{font-size: 1.3em;}
+
+/* technology */
+#content .tech{
+    padding: 2.4rem 1.2rem;
+    margin-top: 15px;
+    background: black;
+    position: relative;}
+
+#content .tech h3{color:#f8f8f8}
+
+#content .tech .text{color:#fff; margin-top: 10px;}
+
+#content .tech h4{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+    position: absolute;
+    top: 80%;
+    right: 10%;}
+
+#content .tech img{width:100%}
+
+#content .tech ul{margin-top: 1.2rem;}
+
+#content .tech ul::after{
+    content: '';
+    display: block;
+    clear: both;}
+    
+#content .tech li{
+    position: relative;
+    float: left;
+    width: 50%;}
+
+#content .tech li:nth-child(2){
+    margin-top: 1.2rem;}
+
+#content .tech a{display: block;}
+
+#content .tech .value{
+    display: flex;
+    text-align: center;}
+
+#content .tech .value li:nth-of-type(1){margin-top: 1.2rem;}
+
+#content .tech .value dt{
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #f8f8f8;}
+
+#content .tech .value dd{
+    font-size: .8rem;
+    font-weight: 400;
+    color: #999;
+    margin-top: .3em;}
+
+
+/* esg */
+#content .esg .container2{
+    width: 100%;
+    padding: 10% 0;}
+
+#content .esg .swiper-slide{
+    width: 80%;
+    background-position: center;
+    background-size: cover;
+    position: relative;}
+
+#content .esg .swiper-slide img{
+    width: 100%;}
+
+#content .esg h4{    
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-left: -40px;
+    letter-spacing: .05em;}
+
+#content .esg ul p{    
+    font-size: 1em;
+    font-weight: 300;
+    color: #fff;
+    position: absolute;
+    top: 42%;
+    width: 80%;
+    padding: 0 10%;
+    text-align: center;}
+
+#content .esg .swiper2{
+    margin: 30px 0;
+    overflow:-moz-hidden-unscrollable;}
+
+#content .esg .pagination2{
+    margin-top: 20px;}
+
+#content .esg .more{position: absolute; top: 56%; left: 48%; color: #fff;}
+
+
+
+/* faq */
+#content .faq{position: relative;}
+
+#content .faq ul{margin-top: 1.2em;}
+
+#content .faq li{
+    position: relative;
+    border-top: 1px solid #ccc;}
+
+#content .faq li:nth-child(3){border-bottom: 1px solid #ccc;}
+
+#content .faq p{
+    font-size: 1em;
+    font-weight: 400;}
+
+#content .faq .trigger::before{
+    content: 'Q'; 
+    position: absolute; 
+    top: .7em; 
+    left: .4em; 
+    color:#0c4da2;
+    font-size: 1.3em; 
+    font-weight: 500; 
+    font-family: 'Roboto', sans-serif;}
+
+#content .faq .q{padding: 1em .5em 1em 2em;}
+
+#content .faq .a{
+    color: #666;
+    background: #f8f8f8;
+    padding : 1.2em 1.8em;
+    line-height: 1.8em;
+    text-align: justify;}
+
+#content .faq .more{
+    display: block;
+    position: absolute;
+    top: 3em;
+    right: 1.2em;}
+
+#content .faq i{font-size: 1.7em;}
+
+/* inquiry */
+#content .inq{position: relative;}
+
+#content .inq h3{letter-spacing: -.05em;}
+
+#content .inq a{
+    display: block;
+    width: 70%; padding: 15px 0;
+    text-align: right;
+    position: absolute;
+    top: 25px;
+    right: 1.2em;}
+
+#content .inq i{font-size: 1.7em;}
+
+
+
+
+
+
+
+
+
+
+

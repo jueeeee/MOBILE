@@ -1,0 +1,104 @@
+body{background: #f8f8f8;}
+
+header{text-align: center; margin-top: 30px;} 
+
+header a{
+    display: inline-block;
+    background: url(../images/mainlogox2.png) 0 0 no-repeat;
+    background-size: 70px 50px;
+    width: 70px;
+    height: 50px;
+    text-indent: -9999px;
+    overflow: hidden;
+    font-size: 0;}
+
+#content{    
+    width: 90%; 
+    height: 1570px;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    margin: 30px 5%;
+    box-sizing: border-box;
+    background: #fff;
+    box-shadow:2px 2px 20px 1px rgba(0,0,0,.1);}  
+
+form{padding: 40px 20px 0;}
+
+.join h3{
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 30px; 
+    text-align: center;}
+
+.join h4{
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 30px 0; }
+
+.join .policy{
+    font-size: .8em;
+    font-weight: 300;
+    padding: 20px;
+    overflow-y: scroll; 
+    height: 100px; 
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    background: #fff; 
+    line-height: 1.5em;}
+
+.join .check{margin-top: 20px;}
+
+.join label{margin-bottom: 50px;}
+
+.join .button{
+    text-align: center;
+    margin-top: 30px;}
+
+.join .button .ok, .join .allcheck{
+    font-weight: 300;
+    display: inline-block;
+    width: 200px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    background:#0c4da2;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 5px;}
+
+.join .button .cancel{
+    display: inline-block;
+    width: 200px;
+    line-height: 24px;
+    padding: 8px 0;
+    border: none;
+    background: #999;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer}
+
+
+
+    /* 체크박스 UI 변경 */
+    input[type=checkbox] + label::before {
+        display: inline-block;
+        width: 14px;
+        height: 14px;
+        background-color: transparent;
+        border: 2px solid #999;
+        border-radius: 50%;
+        content: '';
+        margin: -3px 10px -3.5px 4px
+    }
+    input[type=checkbox] {
+        display: none;
+    }
+    input[type=checkbox] + label {
+        cursor: pointer;
+    }
+    input[type=checkbox]:checked + label::before {
+        background: #fff url(../images/checked_bg.png) center center no-repeat;
+        border: 2px solid #0c4da2;
+    }  
+    /* checked : 체크 되었을 때 */

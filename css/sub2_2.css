@@ -1,0 +1,17 @@
+.visual{
+    width: 100%;
+    height: 220px;
+    background: url(../images/sub2_visual.jpg) center no-repeat;
+    background-size: cover;}
+
+.gallery1, .gallery2, .gallery3{margin-top: 30px;}
+
+h3{font-size: 1.5em; font-weight: 700; color: #0c4da2; margin-left: 20px;}
+img{width: 100%; margin-top: 15px;}
+.title_box{padding: 15px; margin: 0 10px; position: relative;}
+.title_box p{font-size: 1.2em; font-weight: 500; color: #0c4da2;}
+.left{position: absolute; top: 15px; right: 50px;}
+.right{position: absolute; top: 15px; right: 25px;}
+dl{padding: 20px; background: #f8f8f8;}
+dt{font-size: 1.1em; font-weight: 500;}
+dd{color: #666; margin-top: 10px; line-height: 1.8em; letter-spacing: .03em;}

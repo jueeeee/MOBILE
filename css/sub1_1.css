@@ -1,0 +1,18 @@
+.visual{
+    width: 100%;
+    height: 220px;
+    background: url(../images/sub1_visual.jpg) center no-repeat;
+    background-size: cover;}
+
+.title_area{padding: 20px}
+
+.main img{width: 100%}
+.main dl{margin: 20px 20px 50px; position: relative;}
+.main dt{font-size: 1.4em; font-weight: 700; margin-left: 40px; letter-spacing: -0.05em;}
+.main li:nth-child(1) dt::before{content: '01'; font-size: .7em; position: absolute;
+    top:3px; left:0; color:#0c4da2}
+.main li:nth-child(2) dt::before{content: '02'; font-size: .7em; position: absolute;
+    top:3px; left:0; color:#0c4da2}
+.main li:nth-child(3) dt::before{content: '03'; font-size: .7em; position: absolute;
+    top:3px; left:0; color:#0c4da2}
+.main dd{margin: 15px 40px 0; text-align: justify; line-height: 1.6em; color: #666;}

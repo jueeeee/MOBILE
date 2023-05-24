@@ -1,0 +1,95 @@
+body {background: #f8f8f8;}
+
+h1{text-align: center; margin-top: 30px;}
+
+h1 a{
+    display: inline-block;
+    background: url(../images/mainlogox2.png) 0 0 no-repeat;
+    background-size: 70px 50px;
+    width: 70px;
+    height: 50px;
+    text-indent: -9999px;
+    overflow: hidden;
+    font-size: 0;}
+
+#content{
+    width: 90%; 
+    height: 550px;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    margin: 30px 5%;
+    box-sizing: border-box;
+    background: #fff;
+    box-shadow:2px 2px 20px 1px rgba(0,0,0,.1);}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 50px;}
+
+p{  color: #666;
+    text-align: center;
+    margin-top: 5px;}
+
+input, .mem a{
+    width: 90%;
+    height: 50px;
+    margin-left: 5%;
+    border: 1px solid #ccc;
+    font-weight: 300;
+    color: #999;
+    padding-left: 15px;
+    box-sizing: border-box;
+    margin-top: 50px;}
+
+#pass{
+    margin-top: 10px;}
+
+#sub{
+    width: 90%;
+    background: #0c4da2;
+    color: #fff;
+    padding-left: 0;
+    margin-top: 30px;}
+
+.find a{
+    color: #666;
+    position: absolute;
+    top: 375px;
+    left: 80px;}
+
+.find a:nth-of-type(2){
+    left: 190px;}
+
+.find a:nth-of-type(2)::before{
+    content: '';
+    display: block;
+    width: 1px;
+    height: 15px;
+    background: #ccc;
+    position: absolute;
+    top: 5px;
+    left: -23px;}
+
+.mem{text-align: center; margin-top: 70px;}
+
+.mem span{color: #666;}
+
+.mem a{
+    display: block;
+    width :90%;
+    height: 40px;
+    padding-left: 0;
+    line-height: 36px;
+    color: #666;
+    margin-left: 5%;
+    margin-top: 20px;}
+
+.mem:hover a{
+    border: 1px solid #0c4da2;
+    background: #f8f8f8;
+    color: #0c4da2;}
+    

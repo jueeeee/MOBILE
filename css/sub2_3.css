@@ -1,0 +1,37 @@
+.visual{
+    width: 100%;
+    height: 220px;
+    background: url(../images/sub2_visual.jpg) center no-repeat;
+    background-size: cover;}
+section{margin-top: 30px;}
+h3{font-size: 1.5em; font-weight: 700; color: #0c4da2; margin: 0 0 20px 20px;}
+
+/* ESD 에너지 저감 장치 */
+.esd{margin-bottom: 20px;}
+.esd .img{width: 60%; border-radius: 50%; border: 1px solid #ccc; margin: 0 20%;}
+.esd p{font-weight: 500; text-align: center; padding: 15px 0;}
+.esd .popup{position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #fff; z-index: 1000; display:none; overflow: hidden;}
+.esd .popup::before {content: '자세히보기'; position: fixed; left: 0; top: 0; width: 100%; height: 50px; line-height: 50px; font-weight: 500;
+    background: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.15); text-align: center; letter-spacing: -0.065rem;}
+.esd .popup img{width:80%; padding: 15% 10% 10%;}
+.esd .popup .back{border-radius: 50%;}
+.esd .popup .txt{padding: 0 20px;}
+.esd .popup strong{display: block; color: #999; font-weight: 500; font-size: 1.3rem; margin-bottom: 5px;}
+.esd .popup span{font-weight: 500; font-size: 1.5rem;}
+.esd .popup p{font-weight: 400; font-size: 1.05rem; color: #666; text-align: justify; line-height: 1.7em;}
+.esd .popup a{background: url(http://juj2569.cafe24.com/sub2/images/content1/close.jpg) no-repeat; background-size: 100% auto;
+    width: 20px; height: 20px; display: block; text-indent: -9999px; position: absolute; top: 20px; right: 20px;}
+
+
+/* 친환경 전력시스템 */
+.eco h3{margin: 0 20px;}
+.eco img{width: 94%; margin: 3%;}
+.eco dl{padding: 3% 7%;}
+.eco dt{font-size: 1.3em; font-weight: 500;}
+.eco dd{font-size: 1.1em; color: #666; margin-top: 10px; line-height: 1.8em; letter-spacing: .03em;}
+.swiper-container{width: 100%; height: 100%;}
+.swiper-wrapper{height: 430px;}
+.swiper-container-cube .swiper-cube-shadow{background: none;}
+.swiper-container-3d{perspective: 2500px;}
+
+
